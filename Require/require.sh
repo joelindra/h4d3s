@@ -7,7 +7,8 @@
 
   apt update && apt upgrade -y
   apt install figlet rush wafw00f
-  apt install dnsx git subjack seclists massdns ffuf nikto nmap golang subfinder toilet pip npm -y
+  apt install golang -y
+  apt install dnsx git subjack seclists massdns ffuf nikto nmap subfinder toilet pip npm -y
   apt install zsh curl wget amass -y
   sudo snap install amass
   sudo apt install python3-pip
